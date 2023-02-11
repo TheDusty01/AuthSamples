@@ -5,11 +5,17 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthSamples.Static.ApiKey", "Static\AuthSamples.Static.ApiKey\AuthSamples.Static.ApiKey.csproj", "{F3EAD9F1-2C80-44EA-9666-316218FE7D4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthSamples.Static.ApiKey", "Static\AuthSamples.Static.ApiKey.Minimal\AuthSamples.Static.ApiKey.Minimal.csproj", "{848681B9-F19E-4912-B6AD-6C9AFF7FAA51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthSamples.Static.ApiKey.Minimal", "Static\AuthSamples.Static.ApiKey.Minimal\AuthSamples.Static.ApiKey.Minimal.csproj", "{848681B9-F19E-4912-B6AD-6C9AFF7FAA51}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Static", "Static", "{956DD03F-F333-488C-9A5C-E29151FE9376}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dynamic", "Dynamic", "{C346A4EA-9025-4165-BCDF-EE8AC1AF4678}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projektmappenelemente", "Projektmappenelemente", "{6FA32B6A-10E3-4C8B-9F12-E42E683928E8}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
