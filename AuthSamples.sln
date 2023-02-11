@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthSamples.Static.ApiKey", "Static\AuthSamples.Static.ApiKey\AuthSamples.Static.ApiKey.csproj", "{F3EAD9F1-2C80-44EA-9666-316218FE7D4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthSamples.Static.ApiKey", "Static\AuthSamples.Static.ApiKey.Minimal\AuthSamples.Static.ApiKey.Minimal.csproj", "{848681B9-F19E-4912-B6AD-6C9AFF7FAA51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Static", "Static", "{956DD03F-F333-488C-9A5C-E29151FE9376}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dynamic", "Dynamic", "{C346A4EA-9025-4165-BCDF-EE8AC1AF4678}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3EAD9F1-2C80-44EA-9666-316218FE7D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3EAD9F1-2C80-44EA-9666-316218FE7D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3EAD9F1-2C80-44EA-9666-316218FE7D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3EAD9F1-2C80-44EA-9666-316218FE7D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{848681B9-F19E-4912-B6AD-6C9AFF7FAA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{848681B9-F19E-4912-B6AD-6C9AFF7FAA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{848681B9-F19E-4912-B6AD-6C9AFF7FAA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{848681B9-F19E-4912-B6AD-6C9AFF7FAA51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3EAD9F1-2C80-44EA-9666-316218FE7D4B} = {956DD03F-F333-488C-9A5C-E29151FE9376}
+		{848681B9-F19E-4912-B6AD-6C9AFF7FAA51} = {956DD03F-F333-488C-9A5C-E29151FE9376}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BC54F13-B3F2-48A5-BF4D-9E9ACE384463}
+	EndGlobalSection
+EndGlobal
